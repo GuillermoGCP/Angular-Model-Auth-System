@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+/* En tu archivo global styles.css */
+:root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  min-height: 80vh;
+}
+footer {
+  text-align: center;
+  max-height: 10vh;
+}

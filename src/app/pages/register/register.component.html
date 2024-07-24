@@ -1,0 +1,18 @@
+<form (submit)="registerHandler($event)" class="formContainer">
+
+    <div class="registerContainer">
+
+        <label for="nombre">Nombre</label>
+        <input type="text" class="registerInput" [(ngModel)]="options.body.name" name="name" id="nombre">
+
+        <label for="email">Correo electrónico</label>
+        <input type="email" class="registerInput" [(ngModel)]="options.body.email" name="email" id="email">
+
+        <label for="password">Contraseña</label>
+        <input type="password" class="registerInput" [(ngModel)]="options.body.password" name="password" id="password">
+
+        <app-button class="registerButton">Regístrate</app-button>
+        <p class="loginP">¿Ya tienes cuenta? <a routerLink="/login">Inicia sesión</a></p>
+    </div>
+
+</form>
